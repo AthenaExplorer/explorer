@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  line-height: inherit;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+html {
+  font-size: 12px;
+}
+
+button::after {
+  border: 0;
+}
+
+a:hover {
+  color: #333FC6
+}
+
+
+.checkbox-content li{
+  margin-right: 6px;
+  background: rgba(51, 63, 198, 0.06);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox-content li:last-child{
+  margin-right: 0;
+}
+
+.checkbox-content .active {
+  color: #fff;
+  background-color: #333fc6ee;
+}
+
+.child-link-active {
+  border-color: #333FC6;
+  color: #333FC6;
+}
+
+.proChild-link-active {
+  border-color: #6F4715;
+  color: #b86b0c;
+}
+
+.activeProTable{
+
+  color: #fff;
+  background-color: #333fc6ee!important;
+}
+
+.circular{
+  margin: 0 auto;
+}
+
+.editionCenter{
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tagBox{
+  color: #848599;
+  border: 1px solid #E3E2E6;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin-left: 4px;
+}
+.bgbox{
+  width: 1200vw;
+  z-index: 200;
+  position: absolute;
+  left: -10px;
+  background: #F5F5F5;
+}
+
+tbody tr:last-child{
+  border:none!important;
+}
